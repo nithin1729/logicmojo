@@ -1,3 +1,4 @@
+import arrays.BitonicArrayMaximum;
 import arrays.searchingAlgo.BinarySearch;
 import arrays.searchingAlgo.LinearSearch;
 import arrays.sortingAlgo.MergeSort;
@@ -18,5 +19,9 @@ public class MainMethod {
             System.out.print(unsortedArr[i] + " ");
         }
         System.out.println();
+
+        BitonicArrayMaximum bitonicArrayMaximumObj = new BitonicArrayMaximum();
+        int[] arr = {1,15,25,45,42,21,17,12,11};
+        System.out.println(bitonicArrayMaximumObj.getMaximum(arr));
     }
 }
