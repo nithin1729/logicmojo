@@ -1,4 +1,4 @@
-package arrays.misc;
+package arrays.traversal;
 import java.util.List;
 import java.util.ArrayList;
 
