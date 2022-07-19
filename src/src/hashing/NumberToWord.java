@@ -11,7 +11,7 @@ public class NumberToWord {
         if(num%10==0) return tens[num/10];
         return tens[num/10] + " " + ones[num%10];
     }
-    String convertToWords(long n) {
+    String convertToWords(long n, int k) {
         // code here
         if(n==0) return "zero";
         long last2 = n%100;
