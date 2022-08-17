@@ -58,6 +58,7 @@ public class SuggestionSearch {
             }
             curr = curr.child[searchWord.charAt(i)-'a'];
             List<String> suggestedStr = new ArrayList<>();
+
             for(int j=0; j<curr.strCount; j++) suggestedStr.add(curr.words[j]);
             ans.add(suggestedStr);
         }
