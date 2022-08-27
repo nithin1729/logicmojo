@@ -1,5 +1,7 @@
 package dynamicprogramming;
 
+import java.util.Arrays;
+
 public class CoinChange {
     int[][] dp = new int[15][10005];
 
